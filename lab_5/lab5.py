@@ -14,7 +14,7 @@ G_matrix = [
 
 
 def prim_algorithm():
-    print("=== РЕЗУЛЬТАТ РОБОТИ АЛГОРИТМУ ПРІМА ===")
+    print("=== РЕЗУЛЬТАТ РОБОТИ АЛГОРИТМУ ПРИМА ===")
     selected = [False] * V
     no_edge = 0
     selected[0] = True
@@ -39,7 +39,7 @@ def prim_algorithm():
         selected[y] = True
         no_edge += 1
 
-    print(f"Загальна вага МКД (Прім): {total_weight}\n")
+    print(f"Загальна вага МКД (Прим): {total_weight}\n")
 
 class GraphKruskal:
     def __init__(self, vertices):
